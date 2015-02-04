@@ -258,8 +258,10 @@ namespace mars {
 
       // called post drawing
       PostDrawCallback *postDrawCallback;
-
-    private:
+        
+      void savePLY(std::string filename);
+      
+    protected:
       // the widget id
       unsigned long widgetID;
 
